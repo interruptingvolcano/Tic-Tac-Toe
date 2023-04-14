@@ -1,0 +1,71 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  font-family: 'poppins';
+}
+
+h1 {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  resize: none;
+  border: 2px solid blue;
+  height: 500px;
+  width: 500px;
+  margin: auto;
+}
+
+.grid div {
+  max-width: 165px;
+  max-height: 165px;
+  border: 2px solid blue;
+  background: rgb(241, 225, 228);
+  box-shadow: 2px 2px 2px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.x-button,
+.o-button {
+  cursor: pointer;
+  font-size: 2rem;
+  width: 60px;
+  background: blue;
+  color: white;
+}
+.button-space {
+  width: 100px;
+}
+
+.player-prompt-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.playerX-prompt,
+.playerO-prompt {
+  font-size: 2rem;
+}
+
+.hide {
+  display: none;
+
+}
+
+span {
+  font-size: 7rem;
+  margin-left: 40px;
+
+  
+}
+
+
