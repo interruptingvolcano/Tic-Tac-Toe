@@ -49,6 +49,15 @@ h1 {
 .player-prompt-container {
   text-align: center;
   margin-top: 20px;
+  font-size: 3rem;
+}
+
+.playerX-prompt {
+  color: green;
+}
+
+.playerO-prompt {
+  color: rgb(200, 91, 7);
 }
 
 .playerX-prompt,
@@ -59,6 +68,11 @@ h1 {
 .hide {
   display: none;
 
+}
+
+.instructions {
+  font-size: 1.3rem;
+  text-align: center;
 }
 
 span {
